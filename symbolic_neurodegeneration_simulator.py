@@ -44,7 +44,7 @@ def simulate_neurodegeneration(theta, mu, entropy_grad, steps=20):
 # ------------------------------
 
 st.set_page_config(page_title="Symbolic Neurodegeneration Simulator", layout="wide")
-st.title("🧠 Symbolic Neurodegeneration Simulator")
+st.title("Symbolic Neurodegeneration Simulator")
 st.markdown("Model the collapse of symbolic identity coherence over time, inspired by Alzheimer's and related disorders.")
 
 col1, col2 = st.columns(2)
